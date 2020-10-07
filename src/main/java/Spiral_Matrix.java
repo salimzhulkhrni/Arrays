@@ -45,6 +45,11 @@ public class Spiral_Matrix {
      * @param args the command line arguments
      */
     
+    /*
+    Time Complexity: O(N) - N = Number of elements in the matrix (n*N)
+    Space Comlexity: O(N) - N = Number of elements in the matrix (n*N)
+    */
+    
     public List<Integer> spiralOrder(int[][] matrix) {
         
         if(matrix == null || matrix.length == 0)
