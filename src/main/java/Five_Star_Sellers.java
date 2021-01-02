@@ -61,6 +61,8 @@ public class Five_Star_Sellers {
     Time: O(n log n) => log n for add/remove from q is log n we do it for n products
     Space: O(n) => store all n element's deficit in the priority queue
     
+    spurce: https://leetcode.com/discuss/interview-question/983856/Amazon-or-OA-or-Five-Star-Sellers
+    
     */
     
    public int fiveStarReviews(List<int[]> products, int threshold){
